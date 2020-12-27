@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="mgame.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
+    <title>memory game</title>
+</head>
+<body>
+    <h1 id="websiteName">Memory game</h1>
+    <header>
+
+  
+
+  <h3><span class="orangeRedStars" id="stars">&#9733;&#9733;&#9733;</span> <span id="moves">0</span> moves</h3>
+
+  <h3 class="timer"><span id="mins">0</span> mins <span id="secs">0</span> secs</h3>
+ <button id="retry"><h3>&#xf021;</h3></button>
+
+  
+  </header>
+<div id="board-container-flex">
+    <div id="game">
+
+
+<button class="card">&#9633;</button>
+<button class="card">&#9633;</button>
+<button class="card">&#9633;</button>
+<button class="card">&#9633;</button>
+
+
+
+<button class="card">&#9633;</button>
+<button class="card">&#9633;</button>
+<button class="card">&#9633;</button>
+<button class="card">&#9633;</button>
+
+
+
+<button class="card">&#9633;</button>
+<button class="card">&#9633;</button>
+<button class="card">&#9633;</button>
+<button class="card">&#9633;</button>
+
+
+
+<button class="card">&#9633;</button>
+<button class="card">&#9633;</button>
+<button class="card">&#9633;</button>
+<button class="card">&#9633;</button>
+
+
+    </div>
+</div>
+<div id="result">
+    <h1>Excellent Work!!!</h1>
+<h2>good job!!you matched all the cards :) </h2>
+<h2>you did it in <span id="resultMoves">0</span> moves in <span id="resultMins">0</span> mins <span id="resultSecs">0</span> secs</h2>
+<h2>your performance : <span class ="orangeRedStars" id="starsResult">&#9733; &#9733; &#9733;</span></h2>
+<button id="playAgain">play again</button>
+</h2>
+
+</div>
+<script src="mgame.js"></script>
+</body>
+</html> 
