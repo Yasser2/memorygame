@@ -73,8 +73,8 @@ button::-moz-focus-inner {
 
 }
 #game{
-    height: 36vw;
-    width:36vw;
+    height: 500px;
+    width:500px;
     display: grid;
     grid-template-columns:20% 20% 20% 20%;
     grid-template-rows: 20% 20% 20% 20%;
@@ -103,18 +103,19 @@ border-radius: 5%;
 
 
 
-@media (max-width: 300px){
+@media (max-width: 1000px){
 
 
     #game{
-        height: 90vw;
-        width: 90vw;
+        height: 800px;
+        width:800px;
+
     }
     .card{
-        height: 18vw;
-        width: 18vw;
+        height: 15vw;
+        width: 15vw;
 
 
     }
 
-}
+} 
