@@ -107,15 +107,11 @@ border-radius: 5%;
 
 
     #game{
-        height: 800px;
-        width:800px;
+        height: 90vw;
+        width:90vw;
 
     }
-    .card{
-        height: 15vw;
-        width: 15vw;
 
-
-    }
 
 } 
+
