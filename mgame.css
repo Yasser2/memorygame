@@ -103,23 +103,7 @@ border-radius: 5%;
 
 
 
- @media (max-width: 500px) and (min-width:300px){
-
-
-    #game{
-        height: 75vw;
-        width: 75vw;
-
-    }
-    .card{
-        height: 15vw;
-        width: 15vw;
-
-
-    }
-
-} 
-@media (max-width: 600px){
+@media (max-width: 500px){
 
 
     #game{
