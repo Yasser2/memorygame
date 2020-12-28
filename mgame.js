@@ -193,7 +193,7 @@ function changeCardColorToRedForASecond() {
 
 
 
-   //enabledButtonsList = [];
+   enabledButtonsList = [];
 
 selectedCard1.style = 'background-color:red;color:white;' 
 selectedCard2.style = 'background-color:red;color:white;'
@@ -226,7 +226,7 @@ selectedCard2.style = 'background-color:red;color:white;'
    selectedCard1Symbol = "";
    selectedCard2Symbol = "";
    selectedCards = 0;
-   }, 1000);
+   }, 200);
 
 
 
