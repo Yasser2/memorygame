@@ -247,7 +247,8 @@ selectedCard2.style = 'background-color:red;color:white;'
 
 //retry
 function retry(){
-
+//clears the timer.
+clearInterval(timer);
 
 
 for (let i = 0; i < 16; i++) {
@@ -287,8 +288,8 @@ document.getElementById("starsResult").textContent = "★★★";
 
 //shuffle cards again.
 fillCardsSymbolsList()
-//clears the timer.
-clearInterval(timer);
+
+
 document.getElementById("secs").textContent = 0;
 document.getElementById("mins").textContent = 0;
 
