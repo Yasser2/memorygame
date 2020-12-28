@@ -226,7 +226,7 @@ selectedCard2.style = 'background-color:red;color:white;'
    selectedCard1Symbol = "";
    selectedCard2Symbol = "";
    selectedCards = 0;
-   }, 200);
+   }, 400);
 
 
 
